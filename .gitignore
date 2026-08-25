@@ -1,0 +1,46 @@
+# --- Dependencies ---
+node_modules/
+frontend/node_modules/
+
+# --- Virtual Environments ---
+backend/venv/
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python Cache & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.pytest_cache/
+
+# --- Environment Secrets ---
+.env
+.env.*
+*.env
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# --- Storage, Uploads & Generated Reports ---
+storage/
+storage/uploads/
+storage/reports/
+*.pdf
+
+# --- Build Outputs ---
+dist/
+build/
+frontend/build/
+
+# --- IDEs & OS Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
